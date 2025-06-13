@@ -1,0 +1,41 @@
+flutter_native_splash:
+
+  # iOS Configuration
+  ios: true
+  #iOS Light Theme
+  color_ios: '#ffffff'
+  image_ios: 'assets/nativeSplashImages/ios_logo_1.png'
+  branding_ios: 'assets/nativeSplashImages/ios_branding_image_1.png'
+  #iOS Dark Theme
+  color_dark_ios: '#121212'
+  image_dark_ios: 'assets/nativeSplashImages/ios_logo_dark_1.png'
+  branding_dark_ios: 'assets/nativeSplashImages/ios_branding_image_dark_1.png'
+  #iOS Bottom Padding For Branding
+  #branding_bottom_padding_ios: 24
+
+  #Android Configuration
+  android: true
+  #Android Light Theme
+  color_android: '#ffffff'
+  image_android: 'assets/nativeSplashImages/ios_logo_1.png'
+  branding_android: 'assets/nativeSplashImages/ios_branding_image_1.png'
+  #Android Dark Theme
+  color_dark_android: '#121212'
+  image_dark_android: 'assets/nativeSplashImages/ios_logo_dark_1.png'
+  branding_dark_android: 'assets/nativeSplashImages/ios_branding_image_dark_1.png'
+  #Android Bottom Padding For Branding
+  #branding_bottom_padding_android: 24
+
+  #Android 12 Configuration
+  android_12:
+    #Android 12 Light Theme
+    color: '#ffffff'
+    image: 'assets/nativeSplashImages/android_logo_no_color_1.png'
+    branding: 'assets/nativeSplashImages/android_branding_image_1.png'
+    #Android 12 Dark Theme
+    color_dark: '#121212'
+    image_dark: 'assets/nativeSplashImages/android_logo_no_color_dark_1.png'
+    branding_dark: 'assets/nativeSplashImages/android_branding_image_dark_1.png'
+  
+  #Web Configuration
+  web: false
